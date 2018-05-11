@@ -1,0 +1,811 @@
+/*
+    Xây dựng bởi nyc
+    Phiên bản: 1.0
+*/
+
+
+/*Responsive mobile,table,pc*/
+@media only screen and (min-width: 480px){
+    /*for pc tablet*/
+    .container{
+        max-width: 650px;
+    }
+    .logo-1{
+        width: 400px;
+        height: 80px;
+        background-image: url(../img/logo-1.png);
+        background-position: center;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    .chu-to{
+        font-size: 20px;
+    }
+    .chu-vua{
+        font-size: 18px;
+    }
+    .chu-nho{
+        font-size: 16px;
+    }
+    .chu-xnho{
+        font-size: 14px;
+    }
+    .chu-xxnho{
+        font-size: 12px;
+    }
+    a:hover {
+        color: red;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 480px){
+    /*for pc mobile*/
+    .logo-1{
+        width: 250px;
+        height: 53px;
+        background-image: url(../img/logo-1.png);
+        background-position: center;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    .chu-to{
+        font-size: 16px;
+    }
+    .chu-vua{
+        font-size: 14px;
+    }
+    .chu-nho{
+        font-size: 13px;
+    }
+    .chu-xnho{
+        font-size: 11px;
+    }
+    .chu-xxnho{
+        font-size: 10px;
+    }
+    a:hover {
+        color: red;
+        font-size: 12px;
+    }
+}
+
+body{
+     /*    Rokkitt*/
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background: #D5FBFB;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+a:link {
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+/*--------------------------------------------------------------------nav-menu phần menu đầu trang*/
+#nav-menu{
+    padding-left: 0px;
+    font-weight: bold;
+    background: #00ba09;
+    box-shadow: 0px 2px 2px 0px gray;
+}
+#nav-menu ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+#nav-menu li {
+    color: white;
+    display: inline-block;
+    padding: 15px 5px 15px 5px;
+}
+#nav-menu li:hover {
+    background: red;
+    cursor: pointer;
+    color: white;
+}
+#nav-menu li a:hover {
+    color: white;
+}
+.nav-menu2{
+    background: #ff4c3f;
+    font-style: itali104a139cc;
+    color: white;
+}
+.ds-menu {
+    background: #ff6767;
+    padding: 10px;
+}
+.hieuung .ds-menu {
+    position:relative;
+    animation:animateright 1s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+.menu-dn .napvip{
+    float: left;
+    font-weight: bold;
+    color: #FF9800;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px #e0e0e0;
+    background: #fcfcfc;
+    margin-left: 10px;
+    margin-top: -2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.napthe ul li {
+    list-style-type: none;
+}
+.napthe .check-the{
+    margin: 20px 35px
+}
+.nhapthe{
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px #e0e0e0;
+}
+/*------------------------------------------------------------------------Nút đăng nhập đăng ký*/
+.btn-dndk{
+    background: #00ba09;
+    color: white;
+    font-style: italic;
+    border: 1px solid #00ba09;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    float: left;
+    clear: right;
+    cursor: pointer;
+}
+.menu-dn{
+    color: black;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.menu-dn .chu-vua a {
+    color: red;
+}
+.menu-dn a {
+    color: #009688;
+}
+.menu-dn .hopthu{
+    background: red;
+    color: white;
+    display:inline-block;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    border-radius:50%;
+    font-size: 10px;
+}
+.menu-dn .link-chotso a:hover{
+    color: #0066FF;
+}
+
+/*----------------------------------------------------------------------------------Phần diễn đàn*/
+.binhluan{
+    background: #00ba09;
+    color: white;
+    font-style: italic;
+    border: 1px solid #00ba09;
+    border-radius: 8px;
+    margin: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.traloi .nhantin{
+    width: 50%;
+}
+.tbl-choionline table {
+    border: 2px solid white;
+}
+.nut-nho{
+    padding: 1px 2px 1px 2px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 1px 0px #e0e0e0;
+    cursor: pointer;
+}
+.chat{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.chat-traloi{
+    margin-left: 15px;
+    margin-right: 15px;
+    clear: both;
+}
+.chat-item{
+    margin-top: -25px;
+}
+.cannd-lr5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.anh-item{
+    margin-top: 12px;
+}
+.chat{
+    clear: both;
+    margin-left: 25px;
+}
+/*Phần footer */
+.chaotv{
+    background: #ff4c3f;
+    padding-left: 10px;
+    color: white;
+    font-style: italic;
+    text-align: left;
+    padding-top: 5px;
+}
+.tvonline{
+    text-align: right;
+    padding-right: 5px;
+}
+.tvonline:hover {
+    cursor: pointer;
+}
+/*-------------------------------------------------------------------------Danh mục, nội dung*/
+.danhmuc{
+    background: #00ba09;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    text-align: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.noidung{
+    background: white;
+    text-align: left;
+    padding: 10px;
+}
+.noidung-2{
+    text-align: left;
+    padding: 10px;
+}
+
+/*-----------------------------------------------------------------------------------Phần kqxs*/
+.kqxs-home{
+    width: 100%;
+    padding: 10px;
+}
+.kqxs-home td {
+    border: 1px solid #00ba09;
+}
+.bangkqxs{
+    background: white;
+}
+.bangkqxs .chu-to {
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+}
+.tuychonkqxs{
+    background: #B71C1C;
+    padding: 5px;
+}
+.kqxs{
+    margin: auto;
+    width: 100%;
+}
+.kqxs thead{
+    background: red;
+    font-weight: bold;
+    color: white;
+}
+.kqxs td {
+    background: white;
+    text-align: left;
+    border: 1px solid red;
+    border-top: 0px;
+    border-left: 0;
+}
+.bangdaudit{
+    width: 100%;
+}
+.dau{
+    width: 100%;
+}
+.dau thead{
+    background: #e64a19;
+    font-weight: bold;
+    color: white;
+}
+.dau td {
+    background: white;
+    border: 1px solid #e64a19;
+    border-top: 0px;
+    border-left: 0;
+}
+.duoi{
+    width: 100%;
+}
+.duoi thead{
+    background: #ff5722;
+    font-weight: bold;
+    color: white;
+}
+.duoi td {
+    background: white;
+    border: 1px solid #ff5722;
+    border-top: 0px;
+    border-left: 0;
+}
+.loto{
+    width: 100%;
+}
+.loto thead{
+    background: #8bc34a;
+    font-weight: bold;
+    color: white;
+}
+.loto td {
+    background: white;
+    border: 1px solid #8bc34a;
+    border-top: 0px;
+    border-left: 0;
+}
+.bangchotso{
+    width: 100%;
+}
+.bangchotso thead{
+    background: #f7fdf7;
+    font-weight: bold;
+    color: black;
+}
+.bangchotso td {
+    background: white;
+    border: 1px solid #f7fdf7;
+}
+.khuchotso{
+    width: 100%;
+}
+.khuchotso thead{
+    background: #f7fdf7;
+    font-weight: bold;
+    color: black;
+}
+.khuchotso td {
+    background: white;
+    border: 1px solid #f7fdf7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*=====================================================Phần bảng số mơ*/
+.somo{
+    width: 100%;
+}
+.somo thead{
+    background: #3ab140;
+    font-weight: bold;
+    color: white;
+}
+.somo td {
+    background: white;
+    border: 1px solid #3ab140;
+}
+
+/*----------------------------------------------------------------------------------------------Icon, logo css*/
+.ic-new1{
+    width: 25px;
+    height: 15px;
+    float: left;
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-image: url(../icons/new-1.gif);
+}
+.ic-new2{
+    width: 25px;
+    height: 15px;
+    float: left;
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-image: url(../icons/new-2.gif);
+}
+.ic-hot1{
+    width: 25px;
+    height: 15px;
+    float: left;
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-image: url(../icons/hot-1.gif);
+}
+.ic-hot2{
+    width: 25px;
+    height: 15px;
+    float: left;
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-image: url(../icons/hot-2.gif);
+}
+.chuyengia{
+    background-image: url(../icons/chuyengia.png);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    border: 1px;
+    box-shadow: 0px 1px 1px 0px #FF7E00;
+}
+.vuongmien-vang{
+    background-image: url(../img/vuongmien-vang.png);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.vuongmien-bac{
+    background-image: url(../img/vuongmien-bac.png);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.sao-1{
+    background-image: url(../img/sao-1.png);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.sao-2{
+    background-image: url(../img/sao-2.png);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.viettel{
+    background-image: url(../icons/viettel.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.vina{
+    background-image: url(../icons/vinaphone.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.mobi{
+    background-image: url(../icons/mobiphone.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.vietnammobile{
+    background-image: url(../icons/vietnammobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.gate{
+    background-image: url(../icons/gate.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.megacard{
+    background-image: url(../icons/megacard.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+.oncash{
+    background-image: url(../icons/oncash.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+/*------------------------------------------------------------------------------Màu nền, chử*/
+.do{
+    color: #fb0000;
+}
+.xanhbien{
+    color: #5699e1;
+}
+.trang{
+    color: white;
+}
+.den{
+    color: #282828;
+}
+.xanhduong{
+    color: #0066FF;
+}
+.xanhla{
+    color: #008000;
+}
+.xanhchuoi{
+    color: #00ba09;
+}
+.denmo{
+    color: #282828ab;
+}
+.nen-xanh{
+    background: #00ba09;
+}
+.nen-xanh-2{
+    background: #32d946;
+}
+.nen-do{
+    background: #fb0000;
+}
+
+/*--------------------------------------------------------------------------------Căn gióng*/
+.canbanggiua{
+    margin: auto;
+}
+.cannd{
+    padding: 2px 10px 2px 10px;
+}
+.cannd-5{
+    padding: 5px;
+}
+.cach-5{
+    margin: 5px;
+}
+.cannd-10{
+    padding: 10px;
+}
+.cach{
+    margin: 10px;
+}
+.bentrai{
+    float: left;
+}
+.benphai{
+    float: right;
+}
+.cantrai{
+    text-align: left;
+}
+.canphai{
+    text-align: right;
+}
+.cangiua{
+    text-align: center;
+}
+.xoatrai{
+    clear: left;
+}
+.xoaphai{
+    clear: right;
+}
+.xoahet{
+    clear: both;
+}
+/*--------------------------------------------------------------------------------------------------Định dạng*/
+.dam{
+    font-weight: bold;
+}
+.nghieng{
+    font-style: italic;
+}
+.nghiengdam{
+    font-style: italic;
+    font-weight: bold;
+}
+.bong{
+    box-shadow: 0px 25px 25px 0px red;
+}
+.bong-2{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.bong-4{
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+.chu-bong-1{
+    color: white;
+    text-shadow: 1px 1px 2px gray, 0 0 25px blue, 0 0 5px black;
+}
+.chu-bong-2{
+    color: teal; 
+    text-shadow: 2px 2px 5px gray;
+}
+.chu-bong-3{
+    color: red;
+    text-shadow: 2px 2px #ff5050;
+}
+.chu-bong-4{
+    color: yellow;
+    text-shadow: -1px 0 white, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.chu-bong-5{
+    color: green;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px yellow;
+}
+
+/*--------------------------------------------------------------------------------------Hiệu ứng các kiểu*/
+.re-mo:hover{
+    opacity: 0.5;
+}
+
+/*------------------------------------------------------------------------------------Panel, list các kiểu*/
+.panel-top1{
+    border: 1px solid #f1f1f1;
+    background: white;
+    padding: 0px;
+    color: black;
+    border-radius: 5px;
+    height: 150px;
+}
+.panel-top2{
+    border: 1px solid #26C6DA;
+    background: #26C6DA; 
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 80px;
+}
+
+.panel-1{
+    border: 1px solid #FF8A65;
+    background: #FBE9E7;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+}
+.panel-2{
+    border: 1px solid #C8E6C9;
+    background: #00ba0908;
+    padding: 5px;
+    border-radius: 2px;
+}
+.panel-3{
+    background: #EF9A9A;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.list-1{
+    background: #F9FBE7;
+    border-bottom: 1px solid #DCE775;
+    padding: 5px;
+    color: #03a9f4;
+}
+.list-2{
+    background: #F9FBE7;
+    border-bottom: 1px solid #DCE775;
+    padding: 5px;
+    color: #03a9f4;
+    margin-left: 5px;
+    float: left;
+}
+.muc-1{
+    background: #ff5722;
+    font-weight: bold;
+    color: white;
+}
+/*-------------------------------------------------------------------------Nút btn các kiểu*/
+.btn-1{
+    background: #00ba09;
+    color: white;
+    border: 1px solid #00ba09;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.nut{
+    cursor: pointer;
+}
+.nut:hover{
+    color: red;
+    font-size: 18px;
+}
+.nut-napthe{
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    border: 1px solid #00ba09;
+    box-shadow: 0px 0px 1px 0px #e0e0e0;
+    background: #fcfcfc;
+    margin-left: 1px;
+    color: #00ba09;
+    cursor: pointer;
+    margin-top: 5px;
+}
+/*-----------------------------------------------------------------------Input các kiểu*/
+.input-1{
+    border: 1px solid gainsboro;
+    background: white;
+    width: 100px;
+    margin-bottom: 5px;
+}
+.input-2{
+    border: 1px solid gainsboro;
+    background: white;
+    width: 40px;
+    margin-bottom: 5px;
+}
+.ghiso{
+    text-align: center;
+}
+.nhapthe input{
+    border: 1px solid #00ba09;
+    box-shadow: 0px 0px 1px 0px #e0e0e0;
+    background: white;
+    width: 200px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+/*-----------------------------------------------------------------------Quảng cáo*/
+.qc{
+    padding: 5px;
+}
+.qc ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------Định dạng ul*/
+.noidung .panel-2 ul{
+    list-style-type: circle;
+}
+/*-----------------------------------------------------------------------------Phân trang*/
+.phantrang span{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 0px #e0e0e0;
+    background: #fcfcfc;
+    margin-left: 1px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.phantrang .toilui{
+    padding: 5px 15px 5px 15px;
+}
+.phantrang span:hover{
+    background: red;
+    color: white;
+}
